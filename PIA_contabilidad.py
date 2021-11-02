@@ -6,7 +6,7 @@ SEPARADOR = ("*" * 50) + "\n"
 print("BIENVENIDO AL PRESUPUESTO MAESTRO")
 print(SEPARADOR)
 
-print("Presupuesto de Ventas")
+print("Presupuesto de Ventas") #Presupuesto 1
 print("Favor de ingresar los datos a calcular")
 print(SEPARADOR)
 
@@ -72,7 +72,6 @@ print("El total del Producto CR es de: ")
 Total3= (IVZ1+IVZ2)
 print(Total3)
 print(SEPARADOR)
-#AQUI ME QUEDE 27 DE OCTUBRE DEL 2021 A LAS 8:40 AM##############################################################################
 TotalS1= (IVD1+IVDi1+IVZ1)
 TotalS2= (IVD2+IVDi2+IVZ2)
 Total2016= (Total1+Total2+Total3)
@@ -80,7 +79,7 @@ print("El total de Ventas Por Semestre es de:       Primer Semestre          Seg
 print("                                                ",TotalS1,"                 ",TotalS2,"          ",Total2016)
 print(SEPARADOR)
 
-print("Determinacion del Saldo de Clientes y Flujo de Entradas")
+print("Determinacion del Saldo de Clientes y Flujo de Entradas") #Presupuesto 2
 print("Saldo de los clientes del 31 de diciembre del 2015: ")
 Saldo1= int(input())
 print("Saldo de Ventas 2016:")
@@ -90,10 +89,12 @@ print("El total del saldo de clientes del 2016 es: ")
 print(TotalClientes2016)
 print(SEPARADOR)
 print("Entradas de Efectivo")
-print("Cobranza del Año 2015: ") #Jalar el dato de la linea 84-85 de codigo
-Año2015= int(input())
-print("Cobranza del Año 2016: ") #Jalar datos de la linea 86-87
-Año2016= int(input())
+print("Cobranza del Año 2015: ")
+Año2015= Saldo1
+print(Año2015)
+print("Cobranza del Año 2016: ")
+Año2016= (Total2016*0.80)
+print(Año2016)
 Entradas= (Año2015+Año2016)
 print("El total de las entradas del 2016 es: ")
 print(Entradas)
@@ -103,30 +104,30 @@ print("El saldo de los clientes del 2016 es de: ")
 print(Totalclientes2)
 print(SEPARADOR)
 
-print("Presupuesto de Produccion")
+print("Presupuesto de Produccion") #Presupuesto 3
 print("*"*10,"Producto CL de Presupuesto de Produccion Primer Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U1 linea 14
+print("Unidades a vender")
 UAV= (int(input()))
-print("Inventario Final") #Lo introdusco los 10,000 de teclado
+print("Inventario Final")
 INVF= (int(input()))
 print("Total de unidades es de: ")
 TotalU= (UAV+INVF)
 print(TotalU)
-print("Inventario  incial") #Inventario inicial (-) traerlo de la linea 111 podriaa ser INVF = INVI
+print("Inventario  incial")
 INVI= int(input())
 print("Las unidades a producir en primer semestre son: ")
 UNIP= (TotalU-INVI)
 print(UNIP)
 
 print("*"*10,"Producto CL de Presupuesto de Produccion Segundo Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U2 linea 22
+print("Unidades a vender")
 UAV1= (int(input()))
-print("Inventario Final") #Lo introduso los 6,500 desde teclado
+print("Inventario Final")
 INVF1= (int(input()))
 print("Total de unidades es de: ")
 TotalU1= (UAV1+INVF1)
 print(TotalU1)
-print("Inventario  incial") #Inventario inicial (-) traerlo de la linea 111 podriaa ser INVF = INVI1
+print("Inventario  incial")
 INVI1= int(input())
 print("Las unidades a producir en segundo semestre son: ")
 UNIP1= (TotalU1-INVI1)
@@ -142,7 +143,7 @@ print(INVFT)
 print("Total de unidades de prducto CL es de: ")
 TotalUnidadesT= (UAVT+INVFT)
 print(TotalUnidadesT)
-print("Inventario Inicial") #Traer dato, INVIT = INVF osea 10,00 y al final seran 18,500 y hacer print(INVIT)
+print("Inventario Inicial")
 INVIT= int(input())
 print("Total de unidades a Producir de Producto CL")
 TotalT= (TotalUnidadesT-INVIT)
@@ -150,28 +151,28 @@ print(TotalT)
 print(SEPARADOR)
 
 print("*"*10,"Producto CE de Presupuesto de Produccion Primer Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U3 linea 35, UAVDi = U3 y hacer print(UAVDi)
+print("Unidades a vender")
 UAVDi= (int(input()))
-print("Inventario Final") #ingresar de teclado 8500 (redacción)
+print("Inventario Final")
 INVFDi= (int(input()))
 print("Total de unidades es de: ")
 TotalUDi= (UAVDi+INVFDi)
 print(TotalUDi)
-print("Inventario  incial") #Jalar datos que se ingresaron del teclado INVFDi, entonces INVIDi = INVFDi, print(INVIDi)
+print("Inventario  incial")
 INVIDi= int(input())
 print("Las unidades a producir en primer semestre son: ")
 UNIPDi= (TotalUDi-INVIDi)
 print(UNIPDi)
 
 print("*"*10,"Producto CE de Presupuesto de Produccion Segundo Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U4 linea 43, UAVDi1 = U4 y hacer print(UAVDi1)
+print("Unidades a vender")
 UAVDi1= (int(input()))
-print("Inventario Final") #Ingresar de teclado 7500 (redacción)
+print("Inventario Final")
 INVFDi1= (int(input()))
 print("Total de unidades es de: ")
 TotalUDi1= (UAVDi1+INVFDi1)
 print(TotalUDi1)
-print("Inventario  incial") #Jalar datos que se ingresaron del teclado 8,500- el TotalUDi1 (32800)= 24,300
+print("Inventario  incial")
 INVIDi1= int(input())
 print("Las unidades a producir en segundo semestre son: ")
 UNIPDi1= (TotalUDi1-INVIDi1)
@@ -188,7 +189,7 @@ print(INVFDiT)
 print("Total de unidades de prducto CE es de: ")
 TotalUnidadesDiT= (UAVDiT+INVFDiT)
 print(TotalUnidadesDiT)
-print("Inventario Inicial") #Traer dato, INVIT = INVF osea 10,00 y al final seran 18,500 y hacer print(INVIT)
+print("Inventario Inicial")
 INVIDiT= int(input())
 print("Total de unidades a Producir de Producto CE")
 TotalDiT= (TotalUnidadesDiT-INVIDiT)
@@ -196,28 +197,28 @@ print(TotalDiT)
 print(SEPARADOR)
 
 print("*"*10,"Producto CR de Presupuesto de Produccion Primer Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U5 linea 56, UAVZ = U5 y hacer print(UAVZ)
+print("Unidades a vender")
 UAVZ= (int(input()))
-print("Inventario Final")  #Ingresar de teclado 6000 (redacción)
+print("Inventario Final")
 INVFZ= (int(input()))
 print("Total de unidades es de: ")
 TotalUZ= (UAVZ+INVFZ)
 print(TotalUZ)
-print("Inventario  incial")  #Jalar datos que se ingresaron del teclado INVFZ, entonces INVIZ = INVFZ, print(INVIZ)
+print("Inventario  incial")
 INVIZ= int(input())
 print("Las unidades a producir en primer semestre son: ")
 UNIPZ= (TotalUZ-INVIZ)
 print(UNIPZ)
 
 print("*"*10,"Producto CR de Presupuesto de Produccion Segundo Semestre","*"*10)
-print("Unidades a vender") #Jalar datos de la linea de codigo unidades a vender U6 linea 64, UAVZ1 = U6 y hacer print(UAVZ1)
+print("Unidades a vender")
 UAVZ1= (int(input()))
-print("Inventario Final")#Ingresar de teclado 5,000 (redacción)
+print("Inventario Final")
 INVFZ1= (int(input()))
 print("Total de unidades es de: ")
 TotalUZ1= (UAVZ1+INVFZ1)
 print(TotalUZ1)
-print("Inventario  incial") #Jalar datos que se ingresaron del teclado 6,000 - el TotalUZ1 (13500)= 7,500
+print("Inventario  incial")
 INVIZ1= int(input())
 print("Las unidades a producir en segundo semestre son: ")
 UNIPZ1= (TotalUZ1-INVIZ1)
@@ -234,14 +235,14 @@ print(INVFZT)
 print("Total de unidades de prducto CR es de: ")
 TotalUnidadesZT= (UAVZT+INVFZT)
 print(TotalUnidadesZT)
-print("Inventario Inicial")#Traer dato, 20,500 - (6,000) = 14,500
+print("Inventario Inicial")
 INVIZT= int(input())
 print("Total de unidades a Producir de Producto CR")
 TotalZT= (TotalUnidadesZT-INVIZT)
 print(TotalZT)
 print(SEPARADOR)
-#####IMPORTANTE TE QUEDASTE AQUI EN EL 29 DE OCTUBRE A LAS 10:11 PM SEGUNDA NOTA| mejorar las variables de entre la primera y esta nota, forma de hacerlo mas corto y agregar distintos separadores.
-print("*"*10,"Presupuesto de Requerimento de Materiales","*"*10)
+
+print("*"*10,"Presupuesto de Requerimento de Materiales","*"*10) #Presupuesto 4
 print("*"*10,"Producto CL","*"*10)
 print("Unidades a producir: ")
 UAPRM1A= int(input())
@@ -251,7 +252,7 @@ RMAD= float(input("Requermientos Material A: "))
 RMBD= float(input("Requerimentos Material B: "))#Hacer que acepte decimales
 RMCD= float(input("Requerimentos Material C: "))
 RMAD2= float(input("Requermientos Material A: "))
-RMBD2= float(input("Requerimentos Material B: "))#Hacer que acepte decimales
+RMBD2= float(input("Requerimentos Material B: "))
 RMCD2= float(input("Requerimentos Material C: "))
 Total1SDA= (UAPRM1A*RMAD)
 Total2SDA= (UAPRM2A*RMAD2)
@@ -279,10 +280,10 @@ UAPRM1B= int(input())
 UAPRM2B= int(input())
 print("Requerimentos de los Materiales A, B y C")
 RMAD1= float(input("Requermientos Material A: "))#Hacer que acepte decimales
-RMBD1= float(input("Requerimentos Material B: "))#Hacer que acepte decimales
+RMBD1= float(input("Requerimentos Material B: "))
 RMCD1= float(input("Requerimentos Material C: "))
-RMAD21= float(input("Requermientos Material A: "))#Hacer que acepte decimales
-RMBD21= float(input("Requerimentos Material B: "))#Hacer que acepte decimales
+RMAD21= float(input("Requermientos Material A: "))
+RMBD21= float(input("Requerimentos Material B: "))
 RMCD21= float(input("Requerimentos Material C: "))
 Total1SDA1= (UAPRM1B*RMAD1)
 Total2SDA1= (UAPRM2B*RMAD21)
@@ -309,12 +310,12 @@ print("Unidades a producir: ")
 UAPRM1C= int(input())
 UAPRM2C= int(input())
 print("Requerimentos de los Materiales A, B y C")
-RMAZ= float(input("Requermientos Material A: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
-RMBZ= float(input("Requerimentos Material B: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
-RMCZ= float(input("Requerimentos Material C: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
-RMAZ2= float(input("Requermientos Material A: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
-RMBZ2= float(input("Requerimentos Material B: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
-RMCZ2= float(input("Requerimentos Material C: "))#Hacer que acepte decimales|en la redacción no lleva decimales pero tambien
+RMAZ= float(input("Requermientos Material A: "))#Hacer que acepte decimales
+RMBZ= float(input("Requerimentos Material B: "))
+RMCZ= float(input("Requerimentos Material C: "))
+RMAZ2= float(input("Requermientos Material A: "))
+RMBZ2= float(input("Requerimentos Material B: "))
+RMCZ2= float(input("Requerimentos Material C: "))
 Total1SDA2= (UAPRM1C*RMAZ)
 Total2SDA2= (UAPRM2C*RMAZ2)
 TotalASD2= (Total1SDA2+Total2SDA2)
@@ -357,8 +358,8 @@ print("Total de Material C Requerido:      1er Semestre     2do Semestre     Tot
 print("\t\t\t\t\t",Total_requerimientos1SC,"\t\t",Total_requerimientos2SC,"\t\t",Total_requerimientosTotal2016C)
 print(SEPARADOR)
 print(SEPARADOR)
-#####TE QUEDASTE AQUI EL 30 OCTUBRE 8:30 PM corregir las variables anteriores
-print("*"*10,"Presupuesto de Compra de Materiales","*"*10)
+
+print("*"*10,"Presupuesto de Compra de Materiales","*"*10) #Presupuesto 5.
 print("*"*10,"Material A Primer Semestre","*"*10)
 print("Requerimento de materiales: ")
 RDMA1= Total_requerimientos1SA
@@ -529,7 +530,7 @@ print("Total de Material C Requerido:      1er Semestre     2do Semestre     Tot
 print("\t\t\t\t\t",CPT1S,"\t\t",CPT2S,"\t\t",CPTotal2016)
 print(SEPARADOR)
 print(SEPARADOR)
-#####TE QUEDASTE AQUI A LAS 11:10 PM AQUI TE QUEDASTE TE QUEDASTE AQUI A LAS 11:50 PM en el presupuesto 6
+
 print("Determinacion del saldo de Proveedores y Flujos de Salida") #PRESUPUESTO 6
 print("Saldo de proveedores 31-dic-2015: ")
 Saldo_2015= int(input())
@@ -555,7 +556,7 @@ print("El saldo de los clientes es de: ")
 print(Total_Clientes2)
 print(SEPARADOR)
 
-print("*"*10,"Presupuesto de Mano de Obra Directa","*"*10) #Te quedaste aqui el 31 de octubre a las 10:07 pm
+print("*"*10,"Presupuesto de Mano de Obra Directa","*"*10) #Presupuesto 7.
 
 print("*"*10,"PRODUCTO CL       1er. Semestre","*"*10)
 print("Unidades a producir: ")
@@ -686,9 +687,8 @@ print("El total de M.O.D por el segundo semestre es de: ", TDMODPS2)
 TTDMODPS= (TIDMODCL2016 + TIDMODCE2016 + TIDMODCR2016)
 print("El total de M.O.D por semestre es de: ",TTDMODPS)
 print(SEPARADOR)
-#############AQUI TERMINA EL PRESPUESTO 7 AQUI TERMINA EL PRSUPUESTO 7 AQUI TERMINA EL PRESUPUESTO 7
-############TE QUEDASTE EN EL PRESUPUESTO 8 TE QUEDEASTE EN EL PRESUPUESTO DE GASTOS INDIRECTOS DE FABRICACIÓN LNIEA 691 SOLO FALTASN 550 APROX LINEAS DE CODIGO
-print("*"*10,"Presupuesto de Gastos Indirectos de Fabricacion","*"*10)
+
+print("*"*10,"Presupuesto de Gastos Indirectos de Fabricacion","*"*10) #Presupuesto 8.
 print("*"*10,"1er. Semestre","*"*10)
 print("Depreciacion: ")
 DEP1= int(input())
@@ -741,7 +741,7 @@ print("El costo por hora de G.I.F es de: ", TTGIFPS)
 
 print(SEPARADOR)
 
-print("*"*5,"Presupuesto de Gastos de Operación","*"*5) #Presupuesto 9
+print("*"*5,"Presupuesto de Gastos de Operación","*"*5) #Presupuesto 9.
 print("*"*10," Primer Semestre","*"*10)
 
 print("Depreciacion : ")
@@ -788,9 +788,7 @@ INPRES2 = int(input())
 print("** Total de Gastos de Operación **")
 print(DEPR2 + SUELYSAL2 + COMIS2 + VARI2 + INPRES2)
 
-
-
-#parte 3
+#Total
 print("*"*5,"TOTAL 2016: ","*"*5)
 
 print("Total Depreciacion")
@@ -812,7 +810,7 @@ print("Total de Gastos de Operación: ")
 TotalGOP = (DEPR1+ SUELYSAL1 +COMIS1+ VARI1 + INPRES1 + DEPR2 +SUELYSAL2 +COMIS2 + VARI2 + INPRES2 )
 print(TotalGOP)
 
-print("*"*10,"Determinacion del Costo Unitario de Productos Terminados","*"*10) #JALAR DATOS DE LOS PRESUPUESTOS ANTERIORES
+print("*"*10,"Determinacion del Costo Unitario de Productos Terminados","*"*10) #Determinación del costo unitario| como me gusta llamarlo presupuesto 10 para recordarlo mas rapido
 ##*******PRODUCTI Cl********
 print("*"*10,"PRODUCTO CL","*"*10)
 print("")
@@ -821,9 +819,9 @@ print("Costo")
 CMA1= PC2
 print(CMA1)
 print("Cantidad")
-CAMA1= RMAD #TE QUEDASTE AQUI HOY 1 DE NOVIEMBRE ESTAS JALANDO DATOS EN EL EXCEL AHORA SEGUIRA EL MATERIAL B DE CL
+CAMA1= RMAD
 print(CAMA1)
-CUI1=CMA1*CAMA1 
+CUI1=CMA1*CAMA1
 print("El Costo Unitario es: ",CUI1)
 print("")
 print("*"*10,"Material B","*"*10)
@@ -832,7 +830,7 @@ CMA2= PC2B
 print("Cantidad")
 CAMA2= RMBD
 print(CAMA2)
-CUI2=CMA2*CAMA2 
+CUI2=CMA2*CAMA2
 print("El Costo Unitario es: ",CUI2)
 print("")
 print("*"*10,"Material C","*"*10)
@@ -842,7 +840,7 @@ print(CMA3)
 print("Cantidad")
 CAMA3= RMCD
 print(CAMA3)
-CUI3=CMA3*CAMA3 
+CUI3=CMA3*CAMA3
 print("El Costo Unitario es: ",CUI3)
 print("")
 print("*"*10,"Mano de Obra","*"*10)
@@ -852,17 +850,17 @@ print(CMA4)
 print("Cantidad")
 CAMA4= HRPUCL2
 print(CAMA4)
-CUI4=CMA4*CAMA4 
+CUI4=CMA4*CAMA4
 print("El Costo Unitario es: ",CUI4)
 print("")
 print("*"*10,"Gastos Indirectos de Fabricacion","*"*10)
 print("Costo")
-CMA5= TTGIFPS 
+CMA5= TTGIFPS
 print(CMA5)
 print("Cantidad")
 CAMA5= CAMA4
 print(CAMA5)
-CUI5=CMA5*CAMA5 
+CUI5=CMA5*CAMA5
 print("El Costo Unitario es: ",CUI5)
 print("")
 print("*"*10,"Costo Unitario","*"*10)
@@ -877,7 +875,7 @@ print(CMA6)
 print("Cantidad")
 CAMA6= RMAD21
 print(CAMA6)
-CUI6=CMA6*CAMA6 
+CUI6=CMA6*CAMA6
 print("El Costo Unitario es: ",CUI6)
 print("")
 print("*"*10,"Material B","*"*10)
@@ -887,7 +885,7 @@ print(CMA7)
 print("Cantidad")
 CAMA7= RMBD21
 print(CAMA7)
-CUI7=CMA7*CAMA7 
+CUI7=CMA7*CAMA7
 print("El Costo Unitario es: ",CUI7)
 print("")
 print("*"*10,"Material C","*"*10)
@@ -897,7 +895,7 @@ print(CMA8)
 print("Cantidad")
 CAMA8= RMCD21
 print(CAMA8)
-CUI8=CMA8*CAMA8 
+CUI8=CMA8*CAMA8
 print("El Costo Unitario es: ",CUI8)
 print("")
 print("*"*10,"Mano de Obra","*"*10)
@@ -906,7 +904,7 @@ CMA9= CMA4
 print(CMA9)
 print("Cantidad")
 CAMA9= HRPUCE2
-CUI9=CMA9*CAMA9 
+CUI9=CMA9*CAMA9
 print("El Costo Unitario es: ",CUI9)
 print("")
 print("*"*10,"Gastos Indirectos de Fabricacion","*"*10)
@@ -916,7 +914,7 @@ print(CMA10)
 print("Cantidad")
 CAMA10= CAMA9
 print(CAMA10)
-CUI10=CMA10*CAMA10 
+CUI10=CMA10*CAMA10
 print("El Costo Unitario es: ",CUI10)
 print("")
 print("*"*10,"Costo Unitario","*"*10)
@@ -931,7 +929,7 @@ print(CMA11)
 print("Cantidad")
 CAMA11= RMAZ2
 print(CAMA11)
-CUI11=CMA11*CAMA11 
+CUI11=CMA11*CAMA11
 print("El Costo Unitario es: ",CUI11)
 print("")
 print("*"*10,"Material B","*"*10)
@@ -941,7 +939,7 @@ print(CMA12)
 print("Cantidad")
 CAMA12= RMBZ2
 print(CAMA12)
-CUI12=CMA12*CAMA12 
+CUI12=CMA12*CAMA12
 print("El Costo Unitario es: ",CUI12)
 print("")
 print("*"*10,"Material C","*"*10)
@@ -951,7 +949,7 @@ print(CMA13)
 print("Cantidad")
 CAMA13= RMCZ2
 print(CAMA13)
-CUI13=CMA13*CAMA13 
+CUI13=CMA13*CAMA13
 print("El Costo Unitario es: ",CUI13)
 print("")
 print("*"*10,"Mano de Obra","*"*10)
@@ -959,7 +957,7 @@ print("Costo")
 CMA14= float(input())
 print("Cantidad")
 CAMA14= float(input())
-CUI14=CMA14*CAMA14 
+CUI14=CMA14*CAMA14
 print("El Costo Unitario es: ",CUI14)
 print("")
 print("*"*10,"Gastos Indirectos de Fabricacion","*"*10)
@@ -969,7 +967,7 @@ print(CMA15)
 print("Cantidad")
 CAMA15= HRPUCR2
 print(CAMA15)
-CUI15=CMA15*CAMA15 
+CUI15=CMA15*CAMA15
 print("El Costo Unitario es: ",CUI15)
 print("")
 print("*"*10,"Costo Unitario","*"*10)
@@ -977,7 +975,7 @@ print("$",CUI11+CUI12+CUI13+CUI14+CUI15)
 
 print(SEPARADOR)
 
-print("*"*10,"Valuación de Inventarios Finales","*"*10) #Presupuesto 11
+print("*"*10,"Valuación de Inventarios Finales","*"*10) #Presupuesto 11| Valuación de inventarios finales.
 
 print("*"*10,"Inventario Final de Materiales","*"*10)
 print("*"*10,"Material A","*"*10)
@@ -1040,7 +1038,7 @@ print("El costo total es de: ", CTC2)
 TIFDM2= (CTA2 + CTB2 + CTC2)
 print("El inventario final de producto terminado es de: ", TIFDM2)
 print(SEPARADOR)
-print(" PRESUPUESTO FINANCIERO ") #PRESUPUESTO FINANCIERO LINEA DE CODIGO 984 DE 1200(APROX)
+print(" PRESUPUESTO FINANCIERO ") #PRESUPUESTO FINANCIERO
 print(SEPARADOR)
 print("*"*10,"Estado de Costo de Producción y Ventas","*"*10)
 print('Saldo Inicial de Materiales: ')
