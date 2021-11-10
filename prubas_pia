@@ -19,7 +19,7 @@ El importe de venta del segundo semestre del prodcuto CL es de:
 3200000
 **************************************************
 
-El total del Producto CL del año 2016 es de: 
+El total del Producto CL del año 2016 es de:
 6800000
 **************************************************
 
@@ -73,16 +73,16 @@ El total del saldo de clientes del 2016 es:
 **************************************************
 
 Entradas de Efectivo
-Cobranza del Año 2015: 
+Cobranza del Año 2015:
 80000
-Cobranza del Año 2016: 
-13786400
+Cobranza del Año 2016:
+13786400.0
 El total de las entradas del 2016 es: 
-13866400
+13866400.0
 **************************************************
 
 El saldo de los clientes del 2016 es de:
-3446600
+3446600.0
 **************************************************
 
 Presupuesto de Produccion
@@ -187,7 +187,7 @@ Unidades a Vender
 15500
 Inventario Final
 5000
-Total de unidades de prducto CR es de: 
+Total de unidades de prducto CR es de:
 20500
 Inventario Inicial
 6000
@@ -197,71 +197,74 @@ Total de unidades a Producir de Producto CR
 
 ********** Presupuesto de Requerimento de Materiales **********
 ********** Producto CL **********
-Unidades a producir:
+Ingrese las unidades a producir durante el primer semestre:
 12000
+Ingrese las unidades a producir durante el segundo semestre:
 6500
 Requerimentos de los Materiales A, B y C
 Requermientos Material A: 1
 Requerimentos Material B: 0.5
 Requerimentos Material C: 10
-Requermientos Material A: 1
-Requerimentos Material B: 0.5
-Requerimentos Material C: 10
 Total de Material A Requerido:      1er Semestre     2do Semestre     Total
-                                         12000.0                 6500.0                  18500.0
+                                         12000.0                 6500.0                                                           
 Total de Material B Requerido:      1er Semestre     2do Semestre     Total
-                                         6000.0                  3250.0                  9250.0
+                                         6000.0                  3250.0                                                           
 Total de Material C Requerido:      1er Semestre     2do Semestre     Total
-                                         120000.0                65000.0                 185000.0
+                                         120000.0                65000.0                                                          
 ********** Presupuesto de Requerimento de Materiales **********
 ********** Producto CE **********
-Unidades a producir:
+Ingrese las unidades a producir durante el primer semestre:
 13500
+Ingrese las unidades a producir durante el segundo semestre:
 10800
 Requerimentos de los Materiales A, B y C
 Requermientos Material A: 1.2
 Requerimentos Material B: 0.6
 Requerimentos Material C: 25
-Requermientos Material A: 1.2
-Requerimentos Material B: 0.6
-Requerimentos Material C: 25
 Total de Material A Requerido:      1er Semestre     2do Semestre     Total
-                                         16200.0                 12960.0                 29160.0
+                                         16200.0                 12960.0
+29160.0
 Total de Material B Requerido:      1er Semestre     2do Semestre     Total
-                                         8100.0                  6480.0                  14580.0
+                                         8100.0                  6480.0
+14580.0
 Total de Material C Requerido:      1er Semestre     2do Semestre     Total
-                                         337500.0                270000.0                607500.0
+                                         337500.0                270000.0
+607500.0
 ********** Presupuesto de Requerimento de Materiales **********
 ********** Producto CR **********
-Unidades a producir:
+Ingrese las unidades a producir durante el primer semestre:
 7000
+Ingrese las unidades a producir durante el segundo semestre:
 7500
 Requerimentos de los Materiales A, B y C
 Requermientos Material A: 2
 Requerimentos Material B: 1
 Requerimentos Material C: 5
-Requermientos Material A: 2
-Requerimentos Material B: 1
-Requerimentos Material C: 5
 Total de Material A Requerido:      1er Semestre     2do Semestre     Total
-                                         14000.0                 15000.0                 29000.0
+                                         14000.0                 15000.0
+29000.0
 Total de Material B Requerido:      1er Semestre     2do Semestre     Total
-                                         7000.0                  7500.0                  14500.0
+                                         7000.0                  7500.0
+14500.0
 Total de Material C Requerido:      1er Semestre     2do Semestre     Total
-                                         35000.0                 37500.0                 72500.0
+                                         35000.0                 37500.0
+72500.0
 **************************************************
 
 ***** Total de Requerimientos *****
 Total de Material A Requerido:      1er Semestre     2do Semestre     Total
-                                         42200.0                 34460.0                 76660.0
+                                         42200.0                 34460.0
+76660.0
 **************************************************
 
 Total de Material B Requerido:      1er Semestre     2do Semestre     Total
-                                         21100.0                 17230.0                 38330.0
+                                         21100.0                 17230.0
+38330.0
 **************************************************
 
 Total de Material C Requerido:      1er Semestre     2do Semestre     Total
-                                         492500.0                372500.0                865000.0
+                                         492500.0                372500.0
+865000.0
 **************************************************
 
 **************************************************
@@ -304,14 +307,14 @@ El total de Materiales fue:
 84660.0
 El inventario incial fue de:
 5000
-El total de material a comprar es de: 
+El total de material a comprar es de:
 74660.0
-El total de material A en $ fue de: 
+El total de material A en $ fue de:
 811520.0
 **************************************************
 
 ********** Material B Primer Semestre **********
-Requerimento de materiales:
+Requerimento de materiales: 
 21100.0
 Inventario final:
 3000
@@ -345,9 +348,9 @@ El inventario final de Material B fue:
 2500
 El total de Materiales fue:
 40830.0
-El inventario incial fue de:
+El inventario incial fue de: 
 3000
-El total de material a comprar es de: 
+El total de material a comprar es de:
 37830.0
 El total de material B en $ fue de:
 92390.0
@@ -398,13 +401,14 @@ El total de material C en $ fue de:
 
 ********** COMPRAS TOTALES **********
 Total de Material C Requerido:      1er Semestre     2do Semestre     Total
-                                         956700.0                1184310.0               2141010.0
+                                         956700.0                1184310.0
+                                        2141010.0
 **************************************************
 
 **************************************************
 
 Determinacion del saldo de Proveedores y Flujos de Salida
-Saldo de proveedores 31-dic-2015: 
+Saldo de proveedores 31-dic-2015:
 33500
 Compras 2016: 
 2141010.0
@@ -441,7 +445,7 @@ Unidades a producir:
 Horas requeridas por unidad:
 2
 Total de horas requeridas:  13000
-Cuota por hora: 
+Cuota por hora:
 18
 El importe de M.O.D es:  234000
 El total de unidades a producir es de:  18500
@@ -463,7 +467,7 @@ Unidades a producir:
 Horas requeridas por unidad:
 1
 Total de horas requeridas:  10800
-Cuota por hora:
+Cuota por hora: 
 18
 El importe de M.O.D es:  194400
 El total de unidades a producir es de:  24300
@@ -473,14 +477,14 @@ El total del importe de M.O.D es de:  396900
 ********** PRODUCTO CR       1er. Semestre **********
 Unidades a producir:
 7000
-Horas requeridas por unidad:
+Horas requeridas por unidad: 
 1.5
 Total de horas requeridas:  10500.0
 Cuota por hora:
 15
 El importe de M.O.D es:  157500.0
 ********** PRODUCTO CR       2do. Semestre **********
-Unidades a producir: 
+Unidades a producir:
 7500
 Horas requeridas por unidad:
 1.5
@@ -536,6 +540,8 @@ El total G.I.F por semestre es de:  263000
 Total de G.I.F:  263000
 El total de horas M.O.D anual es de:  83050.0
 El costo por hora de G.I.F es de:  3.1667670078266106
+**************************************************
+
 ***** Presupuesto de Gastos de Operación *****
 **********  Primer Semestre **********
 Depreciacion :
@@ -543,13 +549,13 @@ Depreciacion :
 Sueldos y salarios: 
 125000
 Comisiones: 
-86750
-Varios: 
+86750.0
+Varios:
 10000
 Intereses por prestamo: 
 2500
 ** Total de Gastos de Operación **
-231750
+231750.0
 ***** Presupuesto de Gastos de Operación *****
 **********  Segundo Semestre **********
 Depreciacion :
@@ -557,39 +563,38 @@ Depreciacion :
 Sueldos y salarios: 
 125000
 Comisiones: 
-85580
-Varios: 
+85580.0
+Varios:
 8000
 Intereses por prestamo: 
 2500
 ** Total de Gastos de Operación **
-228580
+228580.0
 ***** TOTAL 2016:  *****
 Total Depreciacion
 15000
 Sueldos y Salarios
 250000
 Comisiones
-172330
+172330.0
 Varios
 18000
 Intereses por Préstamo
 5000
 Total de Gastos de Operación:
-460330
-********** Determinaci贸n del Costo Unitario de Productos Terminados **********
+460330.0
+********** Determinacion del Costo Unitario de Productos Terminados **********
 ********** PRODUCTO CL **********
 
 ********** Material A **********
 Costo
 12
 Cantidad
-3
-El Costo Unitario es:  36.0
+1.0
+El Costo Unitario es:  12.0
 
 ********** Material B **********
 Costo
-3
 Cantidad
 0.5
 El Costo Unitario es:  1.5
@@ -598,25 +603,25 @@ El Costo Unitario es:  1.5
 Costo
 2
 Cantidad
-10
+10.0
 El Costo Unitario es:  20.0
 
 ********** Mano de Obra **********
 Costo
-18 
+18
 Cantidad
 2
-El Costo Unitario es:  36.0
+El Costo Unitario es:  36
 
-********** Gastos Indirectos de Fabricaci贸n **********
+********** Gastos Indirectos de Fabricacion **********
 Costo
-3.17
+3.1667670078266106
 Cantidad
 2
-El Costo Unitario es:  6.34
+El Costo Unitario es:  6.333534015653221
 
 ********** Costo Unitario **********
-$ 99.84
+$ 75.83353401565321
 
 ********** PRODUCTO CE **********
 ********** Material A **********
@@ -630,53 +635,52 @@ El Costo Unitario es:  14.399999999999999
 Costo
 3
 Cantidad
-0.6 
+0.6
 El Costo Unitario es:  1.7999999999999998
 
 ********** Material C **********
 Costo
 2
 Cantidad
-25
+25.0
 El Costo Unitario es:  50.0
 
 ********** Mano de Obra **********
 Costo
 18
 Cantidad
-1
-El Costo Unitario es:  18.0
+El Costo Unitario es:  18
 
-********** Gastos Indirectos de Fabricaci贸n **********
+********** Gastos Indirectos de Fabricacion **********
 Costo
-3.17
+3.1667670078266106
 Cantidad
 1
-El Costo Unitario es:  3.17
+El Costo Unitario es:  3.1667670078266106
 
 ********** Costo Unitario **********
-$ 87.37
+$ 87.36676700782661
 
 ********** PRODUCTO CR **********
 ********** Material A **********
 Costo
 12
 Cantidad
-2
+2.0
 El Costo Unitario es:  24.0
 
 ********** Material B **********
 Costo
 3
 Cantidad
-1
+1.0
 El Costo Unitario es:  3.0
 
 ********** Material C **********
 Costo
 2
 Cantidad
-5
+5.0
 El Costo Unitario es:  10.0
 
 ********** Mano de Obra **********
@@ -686,19 +690,21 @@ Cantidad
 1.5
 El Costo Unitario es:  27.0
 
-********** Gastos Indirectos de Fabricaci贸n **********
+********** Gastos Indirectos de Fabricacion **********
 Costo
-3.17
+3.1667670078266106
 Cantidad
 1.5
-El Costo Unitario es:  4.755
+El Costo Unitario es:  4.750150511739916
 
 ********** Costo Unitario **********
-$ 68.755
+$ 68.75015051173992
+**************************************************
+
 ********** Valuación de Inventarios Finales **********
 ********** Inventario Final de Materiales **********
 ********** Material A **********
-Unidades:
+Unidades: 
 3000
 Costo Unitario: 
 12
@@ -716,119 +722,132 @@ Costo Unitario:
 2
 El costo total es de:  3600.0
 El inventario final de materiales es de:  47100.0
+**************************************************
+
 ********** Inventario Final de Producto Terminado **********
 Producto CL
 Unidades:
 6500
 Costo Unitario: 
-75.83
-El costo total es de:  492895.0
+75.83353401565321
+El costo total es de:  492917.9711017459
 Producto CE
 Unidades:
 7500
 Costo Unitario: 
-87.37
-El costo total es de:  655275.0
+87.36676700782661
+El costo total es de:  655250.7525586996
 Producto CR
-Unidades: 
+Unidades:
 5000
 Costo Unitario: 
-68.75
-El costo total es de:  343750.0
-El inventario final de producto terminado es de:  1491920.0
+68.75015051173992
+El costo total es de:  343750.7525586996
+El inventario final de producto terminado es de:  1491919.476219145
+**************************************************
+
+ PRESUPUESTO FINANCIERO
+**************************************************
+
 ********** Estado de Costo de Producción y Ventas **********
 Saldo Inicial de Materiales:
 45000
 Compras de Materiales: 
-2141010
-Material Disponible: 
-2186010
+2141010.0
+Material Disponible:
+2186010.0
 Inventario Final de Materiales:
-47100
-Materiales Utilizados: 
-2138910
+47100.0
+Materiales Utilizados:
+2138910.0
 Mano de Obra Directa:
-1350900
-Gastos de Fabricación Indirectos: 
+1350900.0
+Gastos de Fabricación Indirectos:
 263000
-Costo de Producción: 
-3752810
+Costo de Producción:
+3752810.0
 Inventario Inicial de Productos Terminados:
 135000
 Total de Producción Disponible: 
-3887810
+3887810.0
 Inventario Final de Productos Terminados:
-1491919
-Costo de Ventas: 
-2395891
+1491919.476219145
+Costo de Ventas:
+2395890.523780855
+**************************************************
+
 *************** Estado de Resultados ***************
 Cuanto es de Ventas
 17233000
 Cuanto fue de Costo de Ventas
-2395891
-El total de la utilidad Bruta es de: 
-14837109
+2395890.523780855
+El total de la utilidad Bruta es de:
+14837109.476219146
 Cuanto fue de lso Gastos de Operacion:
-460330
-El total de la Utilidad de la operacion fue: 
-14376779
+460330.0
+El total de la Utilidad de la operacion fue:
+14376779.476219146
 Cuanto fue de ISR: ?
-5031873
+5031872.8166767005
 Cuanto fue PTU: ?
-1437678
-El total de la Utilidad Neta fue: 
-7907228
+1437677.9476219146
+El total de la Utilidad Neta fue:
+7907228.711920531
+**************************************************
+
 ********** Estado de Flujo de Efectivo **********
-Saldo Inicial de Efectivo:
+Saldo Inicial de Efectivo: 
 100000
 Entradas: 
-Cobranza 1:
+Cobranza 2015:
 80000
-Cobranza 2: 
-13786400
-Total de Entrasas: 
-13866400
+Cobranza 2016:
+13786400.0
+Total de Entrasas:
+13866400.0
 Efectivo Disponible:
-13966400
-Salidas: 
- Proveedores 1:
-1070505
- Proveedores 2: 
+13966400.0
+Salidas:
+ Proveedores 2016:
+1070505.0
+ Proveedores 2015:
 33500
-Pago de Mano de Obra Directa: 
-1350900
-Pago de Gastos Indirectos de Fabricación: 
-183000
+Pago de Mano de Obra Directa:
+1350900.0
+Pago de Gastos Indirectos de Fabricación:
+-79996.83323299217
 Pago de Gastos de Operación: 
-445330
-Compra de Activo Dijo(Maquinaria): 
+445330.0
+Compra de Activo Dijo(Maquinaria):
 85000
-Pago ISR 1: 
+Pago ISR 2015: 
 50000
-Pago ISR 2: 
+Pago ISR 2016: 
 0
 Total de Salidas: 
-3218235
-Flujo de Efectivo Actual:
-10748165
+2955238.1667670077
+Flujo de Efectivo Actual $: 
+11011161.833232991
+**************************************************
+
 ********** Maquilados Mexicanos, S.A. de C.V. **********
 ********** Balance General **********
 ********** Presupuesto al 31 de Diciembre del 2016 **********
 ACTIVO
 **Circulante**
 -Efectivo
-10748165
+11011161.833232991
 -Clientes
-3446600
+3446600.0
 -Deudores Diversos
 35000
 -Funcionarios y Empleados
 10500
 -Inventario de Materiales
-47100
+47100.0
 -Inventario de Producto Terminado
-1491919
--Total de activos circulantes: $ 15779284
+1491919.476219145
+-Total de activos circulantes: $ 16042281.309452137
 
 **No Circulante**
 -Terreno
@@ -837,27 +856,27 @@ ACTIVO
 1585000
 -Depreciación Acumulada
 745000
-Total Activos No Circulante: $ 3235000
+Total Activos No Circulante: $ 1745000
 
-Activo Total:  19014284
+Activo Total:  17787281.30945214
 
 PASIVO
 **Corto Plazo**
 Proveedores
-1070505
+1070505.0
 Documentos por Pagar
 95000
 ISR por Pagar
-5031873
+50000
 PTU por pagar
-1437678
-Total de Pasivo a Corto Plazo: $ 7635056
+1437677.9476219146
+Total de Pasivo a Corto Plazo: $ 2653182.9476219146
 
 **Largo Plazo**
-Préstamos Bancarios
+Obligaciones por Pagar:
 120000
 Total de Pasivo a Largo Plazo: $ 120000
-Pasivo Total:  7755056
+Pasivo Total:  2773182.9476219146
 
 **Capital Contable**
 Capital Aportado
@@ -865,8 +884,8 @@ Capital Aportado
 Capital Ganado
 362000
 Utilidad del Ejercicio
-7907229
-Total de Capital Contable: $ 9769229
+7907228.711920531
+Total de Capital Contable: $ 9769228.71192053
 ********************
 ****SUMA DE PASIVO Y CAPITAl****
-17524285
+$ 12542411.659542445
