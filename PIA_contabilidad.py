@@ -244,16 +244,17 @@ print(SEPARADOR)
 
 print("*"*10,"Presupuesto de Requerimento de Materiales","*"*10) #Presupuesto 4
 print("*"*10,"Producto CL","*"*10)
-print("Unidades a producir: ")
+print("Ingrese las unidades a producir durante el primer semestre:")
 UAPRM1A= int(input())
+print("Ingrese las unidades a producir durante el segundo semestre:")
 UAPRM2A= int(input())
 print("Requerimentos de los Materiales A, B y C")
 RMAD= float(input("Requermientos Material A: "))
 RMBD= float(input("Requerimentos Material B: "))#Hacer que acepte decimales
 RMCD= float(input("Requerimentos Material C: "))
-RMAD2= float(input("Requermientos Material A: "))
-RMBD2= float(input("Requerimentos Material B: "))
-RMCD2= float(input("Requerimentos Material C: "))
+RMAD2= RMAD
+RMBD2= RMBD
+RMCD2= RMCD
 Total1SDA= (UAPRM1A*RMAD)
 Total2SDA= (UAPRM2A*RMAD2)
 TotalASD= (Total1SDA+Total2SDA)
@@ -275,16 +276,17 @@ print("\t\t\t\t\t",Total1SDC,"\t\t",Total2SDC,"\t\t",TotalCSD)
 
 print("*"*10,"Presupuesto de Requerimento de Materiales","*"*10)
 print("*"*10,"Producto CE","*"*10)
-print("Unidades a producir: ")
+print("Ingrese las unidades a producir durante el primer semestre:")
 UAPRM1B= int(input())
+print("Ingrese las unidades a producir durante el segundo semestre:")
 UAPRM2B= int(input())
 print("Requerimentos de los Materiales A, B y C")
 RMAD1= float(input("Requermientos Material A: "))#Hacer que acepte decimales
 RMBD1= float(input("Requerimentos Material B: "))
 RMCD1= float(input("Requerimentos Material C: "))
-RMAD21= float(input("Requermientos Material A: "))
-RMBD21= float(input("Requerimentos Material B: "))
-RMCD21= float(input("Requerimentos Material C: "))
+RMAD21= RMAD1
+RMBD21= RMBD1
+RMCD21= RMCD1
 Total1SDA1= (UAPRM1B*RMAD1)
 Total2SDA1= (UAPRM2B*RMAD21)
 TotalASD1= (Total1SDA1+Total2SDA1)
@@ -306,16 +308,17 @@ print("\t\t\t\t\t",Total1SDC1,"\t\t",Total2SDC1,"\t\t",TotalCSD1)
 
 print("*"*10,"Presupuesto de Requerimento de Materiales","*"*10)
 print("*"*10,"Producto CR","*"*10)
-print("Unidades a producir: ")
+print("Ingrese las unidades a producir durante el primer semestre:")
 UAPRM1C= int(input())
+print("Ingrese las unidades a producir durante el segundo semestre:")
 UAPRM2C= int(input())
 print("Requerimentos de los Materiales A, B y C")
 RMAZ= float(input("Requermientos Material A: "))#Hacer que acepte decimales
 RMBZ= float(input("Requerimentos Material B: "))
 RMCZ= float(input("Requerimentos Material C: "))
-RMAZ2= float(input("Requermientos Material A: "))
-RMBZ2= float(input("Requerimentos Material B: "))
-RMCZ2= float(input("Requerimentos Material C: "))
+RMAZ2= RMAZ
+RMBZ2= RMBZ
+RMCZ2= RMCZ
 Total1SDA2= (UAPRM1C*RMAZ)
 Total2SDA2= (UAPRM2C*RMAZ2)
 TotalASD2= (Total1SDA2+Total2SDA2)
@@ -359,7 +362,7 @@ print("\t\t\t\t\t",Total_requerimientos1SC,"\t\t",Total_requerimientos2SC,"\t\t"
 print(SEPARADOR)
 print(SEPARADOR)
 
-print("*"*10,"Presupuesto de Compra de Materiales","*"*10) #Presupuesto 5.
+print("*"*10,"Presupuesto de Compra de Materiales","*"*10) #Presupuesto 5.| te quedaste aqui el 8 de nov a las 9:36 pm
 print("*"*10,"Material A Primer Semestre","*"*10)
 print("Requerimento de materiales: ")
 RDMA1= Total_requerimientos1SA
@@ -1051,7 +1054,7 @@ print('Mano de Obra Directa: ')
 MOD= TTDMODPS
 print(MOD)
 print('Gastos de Fabricación Indirectos: ')
-GFI= TTGIFPS
+GFI= (TD2016 + TS2016 + TMANT2016 + TENERG2016 + TVAR2016) #CORREGIDO el 10 de noviembre del 2021
 print(GFI)
 print('Costo de Producción: ')
 CP= MU+MOD+GFI
