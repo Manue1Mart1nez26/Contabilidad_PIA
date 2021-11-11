@@ -4,10 +4,10 @@
 
 ## Integrantes del equipo
 - Martínez Martínez Carlos Manuel , [@Manue1Mart1nez26](https://github.com/Manue1Mart1nez26).
-- .
-- .
-- .
-- .
+- Briones Salazar Sergio Iván 
+- Macias Jiménez Erick Oswaldo 
+- Moreno Villarreal Carlos Alejandro 
+
 
 
 ## Licencia
